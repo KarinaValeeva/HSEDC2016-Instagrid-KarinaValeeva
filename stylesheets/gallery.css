@@ -1,0 +1,78 @@
+/*div.container {
+  width: 96%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+img {
+  width: 48%;
+  display: inline-block;
+}*/
+
+figure {
+  display: inline-block;
+  background-size: cover;
+}
+
+.contanier {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  /*width: 3600px;
+  height: auto;*/
+  align-items: flex-start;
+}
+
+div.compleximages {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 800px;
+  align-items: flex-start;
+  padding: 0 7px 0 7px;
+}
+
+figure.firstimages {
+  width: 100vh;
+  height: 100vh;
+}
+
+figure.compleximages {
+  width: 50vh;
+  height: 50vh;
+}
+
+.firstimages#img1 {
+  background-image: url(../images/3.jpg);
+}
+
+.firstimages#img2 {
+  background-image: url(../images/4.jpg);
+}
+
+.firstimages#img3 {
+  background-image: url(../images/7.jpg);
+}
+
+.compleximages#img1 {
+  background-image: url(../images/2.jpg);
+}
+
+.compleximages#img2 {
+  background-image: url(../images/1.jpg);
+}
+
+.compleximages#img3 {
+  background-image: url(../images/5.jpg);
+}
+
+.compleximages#img4 {
+  background-image: url(../images/6.jpg);
+}
+
+.compleximages#img5 {
+  background-image: url(../images/8.jpg);
+}
+
+.compleximages#img6 {
+  background-image: url(../images/9.jpg);
+}
