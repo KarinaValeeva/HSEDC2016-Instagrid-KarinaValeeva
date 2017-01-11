@@ -1,24 +1,7 @@
-/*div.container {
-  width: 96%;
-  max-width: 960px;
-  margin: 0 auto;
-}
-img {
-  width: 48%;
-  display: inline-block;
-}*/
-
-figure {
-  display: inline-block;
-  background-size: cover;
-}
-
 .contanier {
   position: absolute;
   display: flex;
   flex-direction: row;
-  /*width: 3600px;
-  height: auto;*/
   align-items: flex-start;
 }
 
@@ -31,12 +14,18 @@ div.compleximages {
   padding: 0 7px 0 7px;
 }
 
-figure.firstimages {
+
+section {
+  display: inline-block;
+  background-size: cover;
+}
+
+section.firstimages {
   width: 100vh;
   height: 100vh;
 }
 
-figure.compleximages {
+section.compleximages {
   width: 50vh;
   height: 50vh;
 }
