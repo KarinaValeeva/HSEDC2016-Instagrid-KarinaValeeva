@@ -1,4 +1,3 @@
-
 .gallery2 {
   position: absolute;
   padding: 20vh;
@@ -13,8 +12,6 @@
   align-items: center;
   transition: all .3s ease;
   box-shadow: 2px 2px 4px 2px rgba(0,0,0,0.4);
-
-
 }
 
 div.compleximages2 {
@@ -23,7 +20,6 @@ div.compleximages2 {
   width: 30vh;
   height: 60vh;
   align-items: flex-start;
-  /*padding: 0 7px 0 7px;*/
 }
 
 

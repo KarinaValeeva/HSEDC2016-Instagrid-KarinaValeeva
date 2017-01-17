@@ -1,30 +1,27 @@
 .gallery {
-  position: absolute;
-  overflow: hidden;
-}
-.galleryRail {
-  /*position: absolute;*/
+  /*position: relative;*/
   display: flex;
-  /*flex-direction: row;
-  align-items: flex-start;*/
-  transition: all .3s ease;
+  flex-direction: row;
   overflow: hidden;
 }
 
+.galleryRail {
+  display: flex;
+  transition: all .3s ease;
+}
 
 div.compleximages {
   display: flex;
   flex-direction: column;
   width: 50vh;
   height: 100vh;
-  /*align-items: flex-start;
-  padding: 0 7px 0 7px;*/
 }
 
 figure {
   background-size: cover;
   background-position: center;
 }
+
 
 figure.firstimages {
   width: 100vh;
@@ -42,7 +39,7 @@ figure.compleximages {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: calc(100% - 51px);
+  height: 100%;
 }
 
 .galleryNav div {
@@ -59,30 +56,12 @@ figure.compleximages {
   cursor:default;
 }
 
-
-.galleryNav div::before,
-.galleryNav div::after {
-  content: '';
-  position: absolute;
-  background: black;
-}
-
-.galleryNav div::before {
-  width: 5px;
-  height: 20px;
-}
-
-.galleryNav div::after {
-  width: 20px;
-  height: 5px;
-}
-
-#prev {
-  transform: rotate(-45deg);
-}
-
-#next {
-  transform: rotate(135deg);
+.galleryNav img {
+  width: 50px;
+  height: 50px;
+  margin-right: 40px;
+  cursor: pointer;
+  z-index: 1;
 }
 
 
