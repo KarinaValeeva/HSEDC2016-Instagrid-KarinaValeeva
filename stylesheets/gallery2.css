@@ -1,42 +1,49 @@
-.gallery {
+
+.gallery2 {
   position: absolute;
+  padding: 20vh;
   overflow: hidden;
+  background-color: gray;
 }
-.galleryRail {
-  /*position: absolute;*/
+.contanier2 {
   display: flex;
-  /*flex-direction: row;
-  align-items: flex-start;*/
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   transition: all .3s ease;
-  overflow: hidden;
+  box-shadow: 2px 2px 4px 2px rgba(0,0,0,0.4);
+
+
 }
 
-
-div.compleximages {
+div.compleximages2 {
   display: flex;
   flex-direction: column;
-  width: 50vh;
-  height: 100vh;
-  /*align-items: flex-start;
-  padding: 0 7px 0 7px;*/
+  width: 30vh;
+  height: 60vh;
+  align-items: flex-start;
+  /*padding: 0 7px 0 7px;*/
 }
+
 
 figure {
   background-size: cover;
   background-position: center;
 }
 
-figure.firstimages {
-  width: 100vh;
-  height: 100vh;
+figure.firstimages2 {
+  width: 60vh;
+  height: 60vh;
 }
 
-figure.compleximages {
-  width: 50vh;
-  height: 50vh;
+figure.compleximages2 {
+  width: 30vh;
+  height: 30vh;
+  /*padding: 1vh 1vh 1vh 1vh;*/
 }
 
-.galleryNav {
+/*.galleryNav {
   position: absolute;
   display: flex;
   justify-content: space-between;
@@ -75,49 +82,49 @@ figure.compleximages {
 .galleryNav div::after {
   width: 20px;
   height: 5px;
-}
+}*/
 
-#prev {
+/*#prev {
   transform: rotate(-45deg);
 }
 
 #next {
   transform: rotate(135deg);
-}
+}*/
 
 
-.firstimages#img1 {
+.firstimages2#img1 {
   background-image: url(../images/3.jpg);
 }
 
-.firstimages#img2 {
+.firstimages2#img2 {
   background-image: url(../images/4.jpg);
 }
 
-.firstimages#img3 {
+.firstimages2#img3 {
   background-image: url(../images/7.jpg);
 }
 
-.compleximages#img1 {
+.compleximages2#img1 {
   background-image: url(../images/2.jpg);
 }
 
-.compleximages#img2 {
+.compleximages2#img2 {
   background-image: url(../images/1.jpg);
 }
 
-.compleximages#img3 {
+.compleximages2#img3 {
   background-image: url(../images/5.jpg);
 }
 
-.compleximages#img4 {
+.compleximages2#img4 {
   background-image: url(../images/6.jpg);
 }
 
-.compleximages#img5 {
+.compleximages2#img5 {
   background-image: url(../images/8.jpg);
 }
 
-.compleximages#img6 {
+.compleximages2#img6 {
   background-image: url(../images/9.jpg);
 }
