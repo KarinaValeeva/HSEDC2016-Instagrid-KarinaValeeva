@@ -1,17 +1,23 @@
 .gallery2 {
-  position: absolute;
-  padding: 20vh;
+  position: relative;
+  display: flex;
+  flex-direction: row;
   overflow: hidden;
-  background-color: gray;
 }
+
 .galleryRail {
   display: flex;
-  /*flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  align-items: center;*/
   transition: all .3s ease;
-  box-shadow: 2px 2px 4px 2px rgba(0,0,0,0.4);
+}
+
+.galleryback {
+  /*position: relative;*/
+  display: flex;
+  /*flex-direction: row;*/
+  /*align-items: flex-start;*/
+  padding: 20vh;
+  background-color: gray;
+
 }
 
 div.compleximages2 {
@@ -20,8 +26,8 @@ div.compleximages2 {
   width: 30vh;
   height: 60vh;
   align-items: flex-start;
-}
 
+}
 
 figure {
   background-size: cover;
