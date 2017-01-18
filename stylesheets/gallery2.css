@@ -1,3 +1,6 @@
+body {
+  min-width: 996px;
+}
 .gallery2 {
   position: relative;
   display: flex;
@@ -16,7 +19,7 @@
   /*flex-direction: row;*/
   /*align-items: flex-start;*/
   padding: 20vh;
-  background-color: gray;
+  /*background-color: gray;*/
 
 }
 
