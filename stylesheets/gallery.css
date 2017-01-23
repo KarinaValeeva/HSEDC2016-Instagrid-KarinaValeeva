@@ -1,5 +1,6 @@
+
 .gallery {
-  position: relative;
+  /*position: absolute;*/
   display: flex;
   flex-direction: row;
   overflow: hidden;
@@ -11,11 +12,22 @@
   transition: all .3s ease;
 }
 
-div.compleximages {
+div.Small {
   display: flex;
   flex-direction: column;
   width: 50vh;
   height: 100vh;
+}
+
+figure.Bigimg {
+  width: 100vh;
+  height: 100vh;
+
+}
+
+figure.Small {
+  width: 50vh;
+  height: 50vh;
 }
 
 figure {
@@ -23,81 +35,101 @@ figure {
   background-position: center;
 }
 
-
-figure.firstimages {
-  width: 100vh;
-  height: 100vh;
-}
-
-figure.compleximages {
-  width: 50vh;
-  height: 50vh;
-}
-
 .galleryNav {
-  position: absolute;
   display: flex;
+  flex-direction: row;
+  position: absolute;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: calc(100% - 51px);
+  height: calc(100% - 0px);
 }
 
 .galleryNav div {
   position: relative;
-  width: 20px;
-  height: 20px;
-  margin: 30px;
   cursor: pointer;
   z-index: 1;
 }
 
 .galleryNav .disabled {
   opacity: 0;
-  cursor:default;
+  cursor: default;
 }
 
-.galleryNav img {
-  width: 50px;
-  height: 50px;
-  margin: -16px;
+#next {
+  display: block;
+  width: 8vh;
+  height: 8vh;
+  border-radius: 100px;
+  margin: 0 5vh 0 0;
   cursor: pointer;
-  z-index: 1;
+  background-color: rgba(255,255,255,0.3);
+  font-size: 3vh;
+  line-height: 8vh;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+#next:hover {
+  background-color: rgba(255,255,255,0.9);
+}
+
+#prev {
+  display: block;
+  width: 8vh;
+  height: 8vh;
+  border-radius: 100px;
+  margin: 0 0 0 5vh;
+  cursor: pointer;
+  background-color: rgba(255,255,255,0.3);
+  font-size: 3vh;
+  line-height: 8vh;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+#prev:hover {
+  background-color: rgba(255,255,255,0.9);
 }
 
 
-.firstimages#img1 {
+
+.Bigimg#img1 {
   background-image: url(../images/3.jpg);
 }
 
-.firstimages#img2 {
-  background-image: url(../images/4.jpg);
-}
-
-.firstimages#img3 {
-  background-image: url(../images/7.jpg);
-}
-
-.compleximages#img1 {
-  background-image: url(../images/2.jpg);
-}
-
-.compleximages#img2 {
-  background-image: url(../images/1.jpg);
-}
-
-.compleximages#img3 {
-  background-image: url(../images/5.jpg);
-}
-
-.compleximages#img4 {
-  background-image: url(../images/6.jpg);
-}
-
-.compleximages#img5 {
+.Bigimg#img2 {
   background-image: url(../images/8.jpg);
 }
 
-.compleximages#img6 {
+.Bigimg#img3 {
+  background-image: url(../images/7.jpg);
+}
+
+.Small#img1 {
+  background-image: url(../images/2.jpg);
+}
+
+.Small#img2 {
+  background-image: url(../images/1.jpg);
+}
+
+.Small#img3 {
+  background-image: url(../images/5.jpg);
+}
+
+.Small#img4 {
+  background-image: url(../images/6.jpg);
+}
+
+.Small#img5 {
   background-image: url(../images/9.jpg);
+}
+
+.Small#img6 {
+  background-image: url(../images/4.jpg);
 }

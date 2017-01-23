@@ -1,29 +1,24 @@
 body {
-  min-width: 996px;
+  background-color: gray;
+  min-width: 800px;
+}
+.galleryWrap {
+  position: absolute;
+  width: 70vw;
+  hyphens: 60vh;
+  margin: 20vh 15vw;
+  box-shadow: 0 0px 100px 0 rgba(0,0,0,.35);
+  background-color: white;
+  min-width: 560px;
 }
 .gallery2 {
-  position: relative;
   display: flex;
   flex-direction: row;
   overflow: hidden;
+  margin: 0 auto;
 }
 
-.galleryRail {
-  display: flex;
-  transition: all .3s ease;
-}
-
-.galleryback {
-  /*position: relative;*/
-  display: flex;
-  /*flex-direction: row;*/
-  /*align-items: flex-start;*/
-  padding: 20vh;
-  /*background-color: gray;*/
-
-}
-
-div.compleximages2 {
+div.Small2 {
   display: flex;
   flex-direction: column;
   width: 30vh;
@@ -32,84 +27,48 @@ div.compleximages2 {
 
 }
 
-figure {
-  background-size: cover;
-  background-position: center;
-}
-
-figure.firstimages2 {
+figure.Bigimg2{
   width: 60vh;
   height: 60vh;
 }
 
-figure.compleximages2 {
+figure.Small2 {
   width: 30vh;
   height: 30vh;
 }
-.galleryNav {
-  position: absolute;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-}
 
-.galleryNav div {
-  position: relative;
-  width: 20px;
-  height: 20px;
-  margin: 30px;
-  cursor: pointer;
-  z-index: 1;
-}
-
-.galleryNav .disabled {
-  opacity: 0;
-  cursor:default;
-}
-
-.galleryNav img {
-  width: 50px;
-  height: 50px;
-  margin-right: 40px;
-  cursor: pointer;
-  z-index: 1;
-}
-
-
-.firstimages2#img1 {
+.Bigimg2#img1 {
   background-image: url(../images/3.jpg);
 }
 
-.firstimages2#img2 {
-  background-image: url(../images/4.jpg);
-}
-
-.firstimages2#img3 {
-  background-image: url(../images/7.jpg);
-}
-
-.compleximages2#img1 {
-  background-image: url(../images/2.jpg);
-}
-
-.compleximages2#img2 {
-  background-image: url(../images/1.jpg);
-}
-
-.compleximages2#img3 {
-  background-image: url(../images/5.jpg);
-}
-
-.compleximages2#img4 {
-  background-image: url(../images/6.jpg);
-}
-
-.compleximages2#img5 {
+.Bigimg2#img2 {
   background-image: url(../images/8.jpg);
 }
 
-.compleximages2#img6 {
+.Bigimg2#img3 {
+  background-image: url(../images/7.jpg);
+}
+
+.Small2#img1 {
+  background-image: url(../images/2.jpg);
+}
+
+.Small2#img2 {
+  background-image: url(../images/1.jpg);
+}
+
+.Small2#img3 {
+  background-image: url(../images/5.jpg);
+}
+
+.Small2#img4 {
+  background-image: url(../images/6.jpg);
+}
+
+.Small2#img5 {
   background-image: url(../images/9.jpg);
+}
+
+.Small2#img6 {
+  background-image: url(../images/4.jpg);
 }
