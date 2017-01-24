@@ -23,9 +23,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   margin-left: 40px;
   margin-right: 40px;
-  margin-top: 2vh;
+  /*margin-top: 2vh;*/
 }
 
 .footer {
@@ -43,12 +44,19 @@
 .about {
   font-family: 'Shadows Into Light', cursive;
   font-size: 4vh;
+  margin-top: 2vh;
   text-decoration: none;
   color: inherit;
   transition: all .1s ease;
 }
 
 .about:hover {
-  color: rgba(0,0,0,.4);
-  text-decoration: underline;
+  color: rgba(0,0,0,.2);
+}
+figure.logo {
+  /*display: block;*/
+  background-image: url(../images/logo.png);
+  width: 8vh;
+  height: 8vh;
+  z-index: 1;
 }
